@@ -49,6 +49,6 @@ class FileOut {
 
 	void FinaliseFile() {
 		append(path, "</Document>\n");
-		append(path, "</kml>\n");
+		append(path, "</kml>");
 	}
 }
